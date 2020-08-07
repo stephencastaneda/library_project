@@ -8,4 +8,5 @@ from .libraries.form import library_form
 from .books.details import book_details
 from .libraries.details import library_details
 from .librarians.details import librarian_details
+from .auth.register import register_user
 
