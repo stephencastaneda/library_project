@@ -1,0 +1,9 @@
+{% extends 'shared/base.html' %}
+
+{% block content %}
+  <body>
+    <li>{{ user.first_name }} {{ user.last_name }}</li>
+    <div>User Name: {{ user.username }}</div>
+    <div>User Email: {{ user.email }}</div>
+  </body>
+ {% endblock %}

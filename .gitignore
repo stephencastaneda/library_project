@@ -1,0 +1,11 @@
+libraryenv/
+*.log
+*.pot
+*.pyc
+__pycache__/
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+.vscode
+libraryapp/views/connection.py
+library.connection.sql

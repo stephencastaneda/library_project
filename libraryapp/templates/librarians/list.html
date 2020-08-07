@@ -1,0 +1,13 @@
+{% extends 'shared/base.html' %}
+
+{% block content %}
+    <h1>Librarians</h1>
+ 
+    <ol>
+    {% for librarian in all_librarians %}
+        <a href="{% url 'libraryapp:librarian' librarian.id %}"> 
+        <li>{{ librarian.first_name }} {{ librarian.last_name }}</li>
+        </a>
+    {% endfor %}
+    </ol>
+{% endblock %}
